@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.model_selection import StratifiedShuffleSplit
 
+# my
 
 def sigmoid(Input):
     return 1.0 / (1.0 + np.math.exp(-Input))
